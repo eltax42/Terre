@@ -1,8 +1,8 @@
-question = "Ecrivez ce que vous voulez ? : "
-reponse = input(question)
+question = input("Ecrivez ce que vous voulez ? : ")
 
-
-mots = reponse.split()
+mots = question.split()
 
 for i in mots:
     print(i)
+
+print('\n')

@@ -1,5 +1,5 @@
-for lettre in 'abcdefghijklmnopqrstuvwxyz':
-    print(lettre,end='')
+for i in 'abcdefghijklmnopqrstuvwxyz':
+    print(i,end='')
 
-    if lettre == 'z':
+    if i == 'z':
         print('\n')     
