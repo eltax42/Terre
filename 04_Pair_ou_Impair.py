@@ -1,3 +1,5 @@
+#1.1
+
 a = input("Ecrivez un nombre: ")
 b = 2
 try:

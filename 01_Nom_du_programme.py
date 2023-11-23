@@ -1,3 +1,5 @@
+#1.0
+
 import os
 
 fichier=os.path.basename(__file__)

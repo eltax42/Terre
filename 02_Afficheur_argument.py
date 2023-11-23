@@ -1,4 +1,6 @@
-question = input("Ecrivez ce que vous voulez ? : ")
+#1.1
+
+question = input("Ecrivez Ici ? : ")
 
 mots = question.split()
 

@@ -1,3 +1,5 @@
+#1.3
+
 while True:
 
     question = input("Ecrivez un lettre de l'alphabet :")
