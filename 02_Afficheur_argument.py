@@ -1,10 +1,7 @@
-#1.1
-
 question = input("Ecrivez Ici ? : ")
+question = question.split()
 
-mots = question.split()
-
-for i in mots:
+for i in question:
     print(i)
 
 print('\n')

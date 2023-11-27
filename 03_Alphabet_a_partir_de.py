@@ -1,10 +1,8 @@
-#1.3
-
 while True:
 
     question = input("Ecrivez un lettre de l'alphabet :")
 
-    if len(question) == 1 and'a' <= question <= 'z':
+    if len(question) == 1 and 'a'<= question <= 'z':
 
         for i in range(ord(question), ord('z') + 1):
             print(chr(i), end='')

@@ -1,7 +1,5 @@
-#1.0
-
 import os
 
-fichier=os.path.basename(__file__)
+fichier = os.path.basename(__file__)
 
 print('nom du fichier --> ',fichier)

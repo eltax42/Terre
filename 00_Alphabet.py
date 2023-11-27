@@ -1,7 +1,6 @@
-#1.0
+Dico = {"abc" : "abcdefghijklmnopqrstuvwxyz"}
 
-for i in 'abcdefghijklmnopqrstuvwxyz':
-    print(i,end='')
+for i in Dico.values():
+    print(i, end='')
 
-    if i == 'z':
-        print('\n')     
+print('\n')
