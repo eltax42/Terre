@@ -1,24 +1,29 @@
-#1.0
+def calcul(a,b):
+    c = 0
+    if a or b == 0:
+        print("erreur")
+    else:
+        while a >= b:
+            a -= b
+            c += 1
+        print(c,a)
 
-while True:
-    try:
-        Nombre1 = int(input("Entrez un nombre: "))
-        break
-    except:
-        print("Veuillez entrer un nombre !")
+dividende = input("Ecrivez le dividende :")
+diviseur = input("Ecrivez le diviseur :")       
 
-while True:
-    try:
-        Nombre2 = int(input("Entrez un deuxieme nombre: "))
-        break
-    except:
-        print("Veuillez entrer un nombre !")
+try:
+    dividende = int(dividende)
+    diviseur = int(diviseur)
+except:
+    print("erreur")
 
-        
-if Nombre2 > Nombre1:
-            print("Le premier Nombre doit etre superieur !")
-else:
-    calcul = Nombre1 / Nombre2
-    calcul = int(calcul)
-    Reste = Nombre1 % Nombre2
-    print("Le resultat est",calcul ,"et il reste ",Reste,".")
+calcul(dividende,diviseur)
+
+
+
+
+
+
+
+
+
