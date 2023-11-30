@@ -1,29 +1,33 @@
 def calcul(a,b):
-    c = 0
-    if a or b == 0:
-        print("erreur")
+    
+    if a == 0 or b == 0:
+        print("Une division de 0 est impossible")
     else:
+        c = 0
         while a >= b:
             a -= b
             c += 1
-        print(c,a)
+        print(f"Le resultat est : {c} ,reste {a}.")
+
+
+
+print("------> Debut du programme <------", ('\n'))
 
 dividende = input("Ecrivez le dividende :")
 diviseur = input("Ecrivez le diviseur :")       
 
+
 try:
     dividende = int(dividende)
     diviseur = int(diviseur)
+    calcul(dividende,diviseur)
 except:
-    print("erreur")
+    print("Erreur,Veuillez entrer des nombres(entiers)")
 
-calcul(dividende,diviseur)
-
-
+print(("\n"), "------> fin du programe <------")
 
 
-
-
+  
 
 
 
