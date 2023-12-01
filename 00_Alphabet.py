@@ -1,6 +1,10 @@
-Dico = {"abc" : "abcdefghijklmnopqrstuvwxyz"}
+def alphabet():
+    for lettre in ("abcdefghijklmnopqrstuvwxz"):
+        print(lettre, end='')
 
-for i in Dico.values():
-    print(i, end='')
+print("------> Debut du programme <------", ('\n'))
 
+alphabet()
 print('\n')
+
+print("------> fin du programe <------")
