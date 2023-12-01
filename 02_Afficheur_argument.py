@@ -1,7 +1,12 @@
-question = input("Ecrivez Ici ? : ")
-question = question.split()
+def r_ligne(a):
+    for each_w in a:
+        print(each_w)
 
-for i in question:
-    print(i)
+print("------> Debut du programme <------", ('\n'))
 
-print('\n')
+Question = input("Ecris ce que tu veux : ")
+Question = Question.split()
+
+r_ligne(Question)
+
+print(('\n'),"------> fin du programe <------")
