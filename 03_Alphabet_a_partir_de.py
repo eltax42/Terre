@@ -1,14 +1,17 @@
-while True:
+def alph_a_partir_de(a):
 
-    question = input("Ecrivez un lettre de l'alphabet :")
-
-    if len(question) == 1 and 'a'<= question <= 'z':
-
-        for i in range(ord(question), ord('z') + 1):
-            print(chr(i), end='')
-        break
-
+    if len(a) == 1 and 'a' <= a <= 'z':
+        for lettre in range(ord(a) , ord("z") +1):
+            print(chr(lettre) , end='')
+        print('\n')
     else:
-         print("Veuillez saisir UNE minuscule (a->z)")
+        print("Erreur")
+        print('\n')
 
-print('\n')
+print("------> Debut du programme <------", ('\n'))
+            
+question = input("Ecrivez un lettre de l'alphabet en minuscule :")
+
+alph_a_partir_de(question)
+
+print("------> fin du programe <------")
