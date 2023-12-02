@@ -1,7 +1,16 @@
-#1.0
+def mots(a):
+    for lettre in range(len(a)-1,-1,-1):
+        print(a[lettre],end='')
 
-phrase = input("Ecrivez un message --> ")
+print("------> Debut du programme <------", ('\n'))
 
-for i in range(len(phrase)-1,-1,-1):
-    print(phrase[i], end='')
-print('\n')
+question = input("Ecrivez ici --> ")
+
+if len(question) == 0:
+    print('Erreur')
+    print('\n')
+else:
+    mots(question)
+    print('\n')
+
+print("------> Fin du programe <------")
