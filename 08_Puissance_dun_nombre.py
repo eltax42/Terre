@@ -7,7 +7,7 @@ def calcul(a,b):
 print("------> Debut du programme <------", ('\n'))
 
 question1 = input("Entrer un chiffre :")
-question2 = input("entrer la puissance :")
+question2 = input("Entrer la puissance :")
 
 try:
     question1 = int(question1)
@@ -22,7 +22,7 @@ try:
 except:
     print("Erreur, veuillez entrer un nombre valide.")
 
-print(("\n"), "------> fin du programe <------")
+print(("\n"), "------> Fin du programe <------")
 
 
 
